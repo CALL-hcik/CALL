@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(python3:*)",
+      "Bash(du -sh:*)",
+      "Bash(head:*)",
+      "Bash(grep:*)",
+      "Bash(python create_samples.py:*)",
+      "Bash(done)",
+      "Bash(python update_notebook_complete.py:*)",
+      "Bash(python update_notebook_v2.py:*)",
+      "Bash(python update_notebook_final.py:*)",
+      "Bash(python fix_remaining_issues.py:*)",
+      "Bash(python final_cleanup.py:*)",
+      "Bash(python verify_updates.py:*)",
+      "Bash(iconv:*)",
+      "Bash(python update_notebook.py:*)",
+      "Bash(python:*)",
+      "Bash(ls:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,19 @@
+# API Keys
+.env
+
+# FAISS Indices (large files)
+dataset/faiss/*.index
+dataset/faiss/*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (optional - keep if you want to track experiment outputs)
+# results/
